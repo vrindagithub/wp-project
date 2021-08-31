@@ -1,0 +1,30 @@
+<html>
+<head>
+        <title>N250</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="1.css">
+</head>
+<body>
+	
+<header>
+Khush Travels
+Transport
+Tickets
+Hotels
+Cars
+More
+..
+</header>
+
+</footer>
+<form>
+Book Now
+User Name:-<input type="text" name="User Name" maxlength="15" size="10"><br><br>
+First Name:-<input type="text" name="First Name" maxlength="15" size="10"><br><br>
+Last Name:-<input type="text" name="Last Name" maxlength="15" size="10"><br><br>
+Your Mobile:-<input type="number" name="Your Mobile" maxlength="15" size="10"><br><br>
+Your Email:-<input type="email" name="Your Email" maxlength="15" size="10"><br><br>
+</form>
+</body>
+</html>
