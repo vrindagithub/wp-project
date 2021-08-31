@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="1.css">
 </head>
 <body>
-	
+<img src="">	
 <header>
 Khush Travels
 Transport
@@ -16,7 +16,9 @@ Cars
 More
 ..
 </header>
+<main>
 
+</main>
 </footer>
 <form>
 Book Now
