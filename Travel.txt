@@ -1,33 +1,91 @@
-//HELLO 
+<!DOCTYPE html>
+<html lang="en-US">
 <html>
 <head>
-        <title>WP PROJECT</title>
+        <title>INTERNSHIP TASK-1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="1.css">
+        <link rel="stylesheet" href="travel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/>
 </head>
 <body>
-<img src="">	
-<header>
-Khush Travels
-Transport
-Tickets
-Hotels
-Cars
-More
-..
-</header>
-<main>
 
-</main>
-</footer>
+<header>
+<div class="main">
+	<div class="logo">
+		<img src="logo.png" alt="logo">
+	</div>
+	<ul>
+           <li><a href="#">Transport</a></li>
+           <li><a href="#">Tickets</a></li>
+   	   <li><a href="#">Hotels</a></li>
+   	   <li><a href="#">More</a></li>
+	   <li><button><a href="#">Sign IN</a></button></li>
+         </ul>
+		
+
+	<div class="heading">
+		Khush Travels
+	</div>
+  
+</header>
+
+<br>
+	<center><h1>EXPLORE INDIA WITH US</h1></center><br><br>
+	<div class="a">
+		<img src="DELHI 1.jpeg">&nbsp
+		<img src="mumbai 1.jpeg">&nbsp
+		<img src="kerela 1.jpeg">&nbsp
+		<img src="goa 1.jpeg">&nbsp
+		<img src="udaipur 1.jpeg">&nbsp
+		<img src="jaisalmer 1.jpeg">&nbsp
+		<img src="kutch 1.jpeg">&nbsp
+		<img src="diu 1.jpeg">&nbsp
+	</div>	
+
+<aside>
 <form>
-Book Now
+<h1>Contact</h1><br>
 User Name:-<input type="text" name="User Name" maxlength="15" size="10"><br><br>
 First Name:-<input type="text" name="First Name" maxlength="15" size="10"><br><br>
 Last Name:-<input type="text" name="Last Name" maxlength="15" size="10"><br><br>
-Your Mobile:-<input type="number" name="Your Mobile" maxlength="15" size="10"><br><br>
+Your Mobile:-<input type="tel" name="Your Mobile" maxlength="15" size="10"><br><br>
 Your Email:-<input type="email" name="Your Email" maxlength="15" size="10"><br><br>
+<input type="submit" name="submit" maxlength="15" size="10"><br><br>
 </form>
+</aside>
+
+<main>
+<h1>About US</h1>
+<p style="font-family:Cursive; color:red;">"Be khush with Khush Travels"</p>
+</main>
+
+<footer>
+
+
+<div class="footer-left">
+	OFFICE ADDRESS:<br>
+	C/o. Navbharat Holiays- 1-space Complex, 
+	22- New Jagnath, DR.Yagnik Road, Rajkot-360001.
+</div>
+
+<div class="social">
+Follow US:
+	<ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+	</ul>
+</div>		
+
+<div class="footer-right"><br>
+Contact Us:<br>
+NIMESH KESHARIYA<br>
+PHONE NO.: 7405090090<br>
+Email:navbharatrjt@yahoo.com
+</div>
+
+</footer>
+
 </body>
 </html>
