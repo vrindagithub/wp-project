@@ -6,7 +6,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="travel.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/>
 </head>
 <body>
 
@@ -23,7 +22,7 @@
 	   <li><button><a href="#">Sign IN</a></button></li>
          </ul>
 		
-
+</div>
 	<div class="heading">
 		Khush Travels
 	</div>
@@ -56,36 +55,103 @@ Your Email:-<input type="email" name="Your Email" maxlength="15" size="10"><br><
 </aside>
 
 <main>
-<h1>About US</h1>
-<p style="font-family:Cursive; color:red;">"Be khush with Khush Travels"</p>
+<br>
+<h2><p style="font-family:Helvetica; color:white; text-align: center;">"We plan you enjoy!!"</p></h2>
+<br>
+<br>
+
+<h2> <center>OUR SERVICES </center></h2><br>
+<ul style="color:black; margin-left:10%; font-size:120%;">
+	<li>Domestic International Air Ticket Booking</li>
+	<li>Domestic International Hotel Booking</li>
+	<li>Railway E-Ticket Booking</li>
+	<li>Passport/Visa</li>
+	<li>Travel Insurance</li>
+	<li>Money Transfer</li>
+	<li>Non AC Car/Bus on rental</li>
+	<li>Daily service Bus Ticket Booking</li>
+	<li>Tailor made packages</li>
+</ul>
 </main>
 
-<footer>
+<br>
+<div class="video">
+<h1><center>Video Projects:</center></h1><br>
+<video width="200" height="300" controls>
+	<source src="Leh.mp4" type="video/mp4">
+</video>
 
+<video width="200" height="300" controls>
+	<source src="v1.mp4" type="video/mp4">
+</video>
 
-<div class="footer-left">
-	OFFICE ADDRESS:<br>
-	C/o. Navbharat Holiays- 1-space Complex, 
-	22- New Jagnath, DR.Yagnik Road, Rajkot-360001.
+<video width="200" height="300" controls>
+	<source src="v2.mp4" type="video/mp4">
+</video>
+
+<video width="200" height="300" controls>
+	<source src="v3.mp4" type="video/mp4">
+</video>
+
+<video width="200" height="300" controls>
+	<source src="v4.mp4" type="video/mp4">
+</video>
+
+<video width="200" height="300" controls>
+	<source src="v5.mp4" type="video/mp4">
+</video>
 </div>
 
-<div class="social">
-Follow US:
-	<ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
-	</ul>
-</div>		
+<br><br>
+<h1><center>Created By:</center></h1>
+	<div class="isha">
+	   <figure>
+            	<img src="isha.jpeg"  alt="image"><br>
+		<figcaption>
+                	<h2>Isha Keshariya</h2>
+                 	<h3>N250--70471119053</h3>
+		</figcaption>
+	    </figure>
+	</div>
 
-<div class="footer-right"><br>
-Contact Us:<br>
-NIMESH KESHARIYA<br>
-PHONE NO.: 7405090090<br>
-Email:navbharatrjt@yahoo.com
+	<div class="herchelle">
+	    <figure>
+		<img src="herchelle.jpeg" alt="image"><br>
+		<figcaption>
+                	<h2>Herchelle Nandwana</h2>
+                 	<h3>N261--70471119064</h3>
+		</figcaption>
+	    </figure>
+	</div>
+
+	<div class="vrinda">
+	   <figure>
+		<img src="vrinda.jpeg" alt="image"><br>
+		<figcaption>
+                	<h2>Vrinda Arora</h2>
+                 	<h3>N210--70471119010</h3>
+		</figcaption>
+           </figure>
+	</div>
+<footer>
+
+<div class="footer-left">
+	<h2>Office Address:</h2>
+	C/o. Navbharat Holiays- 1-space Complex, 
+	22- New Jagnath, DR.Yagnik Road, Rajkot-360001.
+</div>	
+
+<div class="main">
+	<h2>Contact Us:</h2>
+	NIMESH KESHARIYA<br>
+	PHONE NO.:7405090090
+</div>
+
+<div class="footer-right">
+<h2>Email:</h2>
+navbharatrjt@yahoo.com
 </div>
 
 </footer>
-
 </body>
 </html>
