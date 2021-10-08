@@ -1,0 +1,261 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border box;	
+    /* background-color: black; */
+}
+
+.mid{
+    /* background-color: tomato;
+     */
+     background-color: tomato;
+    /* border-radius: 20px; */
+    /* margin-top: 10px; */
+    height: 80px;
+   
+}
+ul{
+	text-align: center;
+/* float:right; */
+list-style-type: none;
+/* margin-top:20px; */
+}
+
+.mid h1{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.logo img{
+    float:left;
+    width:60px;
+    height:auto;
+    margin-left: 10px;
+    border: 1px solid white;
+    
+    }
+   
+
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+  }
+  
+  .packages .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border: 3px solid black;
+  }
+  
+  .packages .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .packages .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .packages .box-container .box .content h3{
+    font-size:2rem;
+    /* color:#333; */
+    color: black;
+  }
+  
+  .packages .box-container .box .content h3 i{
+    color:var(--orange);
+  }
+  
+  .packages .box-container .box .content p{
+    font-size:1.7rem;
+    /* color:#666;
+     */
+     color: black;
+    padding:1rem 0;
+  }
+  .packages .box-container .box .content .stars input{
+      display: none;
+  }
+  
+  .packages .box-container .box .content .stars label{
+    /* font-size:1.7rem;
+    color:blue;
+   */
+    display: inline-block;
+    width:20px;
+    position: relative;
+   
+    top: -50px;
+    cursor: pointer;
+}
+
+.packages .box-container .box .content .stars label::before{
+    content: "\2605";
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+.packages .box-container .box .content .stars label::after{
+    content: "\2605";
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: gold;
+}
+
+
+
+  
+  .packages .box-container .box .content .price{
+    font-size: 2rem;
+    /* color:#333; */
+    color: black;
+    padding-top: 1rem;
+  }
+  
+  .packages .box-container .box .content .price span{
+    /* color:#666; */
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
+  .heading{
+    text-align: center;
+    padding:2.5rem 0
+  }
+  
+  .heading span{
+    font-size: 3.5rem;
+    background:orangered;
+    /* background: rgba(255, 165, 0,.2); */
+    border: 1px solid black;
+    /* color:var(--orange); */
+    color: black;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+  
+  .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background:orangered;
+    color:black;
+    padding:.8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  
+  .btn:hover{
+    background:rgba(255, 165, 0,.2);
+    color:var(--orange);
+  }
+  
+  .review .review-slider{
+    padding-bottom: 2rem;
+  }
+  
+  .review .box{
+    padding:2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+  
+  .review .box img{
+    height:13rem;
+    width:13rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .review .box h3{
+    /* color:#333; */
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .review .box p{
+    color:#666;
+    font-size: 1.5rem;
+    padding:1rem 0;
+  }
+  
+
+  .review  .heading .space{
+    border: none;
+}
+
+footer{
+	margin-top: 200px;
+	width: 100%;
+	height: 200px;
+	/* position: absolute; */
+	bottom: 0;
+	/* background: linear-gradient(to right, #00093c, #2d0b00); */
+  background-color: black;
+  /* background:orangered; */
+	color: white;
+	padding: 100px 0 30px;
+	/* border-top-left-radius: 200px; */
+	font-size: 13px;
+	line-height: 20px;
+
+}
+
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	font-size: 25px;
+  
+}
+
+.col{
+	flex-basis: 20%;
+	padding: 10px;
+  
+}
+.col h3{
+	width: fit-content;
+	margin-bottom: 40px;
+	position: relative;
+  
+}
+.col .email{
+	width: fit-content;
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+
+}
+
+.col img{
+	height: 50px;
+	width: 80px;
+  
+}
+
+.col #twitter{
+	height: 50px;
+	width: 60px;
+  
+}
