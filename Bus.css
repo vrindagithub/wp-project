@@ -1,0 +1,234 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border box;	
+}
+
+.mid{
+    background-color: tomato;
+    /* border-radius: 20px; */
+    /* margin-top: 10px; */
+    height: 80px;
+   
+}
+ul{
+	text-align: center;
+/* float:right; */
+list-style-type: none;
+/* margin-top:20px; */
+}
+
+.mid h1{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 50px;
+}
+.logo img{
+    float:left;
+    width:60px;
+    height:auto;
+    margin-left: 10px;
+    
+    }
+
+    .bg img{
+        height: 1100px;
+        width: 100%;
+        opacity: 65%;
+    }
+
+    .bookings{
+        position: relative;
+        border: 4px solid black;
+        border-radius: 20px;
+        width: 400px;
+        height: 550px;
+        margin-top: -1000px;
+        margin-left: 100px;
+     
+    }
+    .bookings p{
+        margin-top: 50px;
+        font-size: 35px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    #para2{
+        margin-top: 30px;
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    #para3{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    #from{
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 20px;
+        border: 2px solid black;
+    }
+    #to{
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 20px;
+        border: 2px solid black;
+
+    }
+    #date{
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 20px;
+        border: 2px solid black;
+    }
+
+    .button-blue{
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        float:left;
+        width: 80%;
+        margin-left: 50px;
+        
+        border: #fbfbfb solid 4px;
+        cursor:pointer;
+        background-color: orangered;
+        color:white;
+        font-size:24px;
+        padding-top:22px;
+        padding-bottom:22px;
+        transition: all 0.3s;
+      margin-top:-1px;
+      font-weight:800;
+      font-size: 30px;
+    }
+    
+    .button-blue:hover{
+        background-color: rgba(0,0,0,0);
+        color: #0493bd;
+    }
+        
+    .montform  .submit:hover {
+        color: #3498db;
+    }
+        
+    .ease {
+        width: 0px;
+        height: 80px;
+        background-color: black;
+        transition: .3s ease;
+    }
+    
+    .submit:hover .ease{
+      width:80%;
+      margin-left: 50px;
+      background-color:black;
+    }
+    
+    .classes input{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 20px;
+        border: 2px solid black;
+    }
+
+   .classes p{
+       font-size: 25px;
+       margin-top: -5px;
+   }
+
+   
+   .busoffer iframe{
+    position: relative;
+    left: 1000px;
+    bottom: 660px;
+    height: 670px;
+    width: 600px;
+    border: 3px solid black;
+    }
+    
+.guidelines{
+    /* position: relative; */
+    bottom: 300px;
+    left: 100px;
+    height: 300px;
+    width: 1000px;
+}
+.guidelines img{
+     border: 1px solid black;
+     height: 300px;
+     width: 1500px;
+ }
+
+ .faq{
+    /*position: relative;*/
+    top: -200px;
+}
+.faq details{
+    margin-left: 20px;
+}
+.faq summary{
+    font-size: 30px;
+}
+.faq p{
+    font-size: 25px;
+}
+
+footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	/* position: absolute; */
+	bottom: 0;
+	/* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background-color: black;
+	color: white;
+	padding: 100px 0 30px;
+	/* border-top-left-radius: 200px; */
+	font-size: 13px;
+	line-height: 20px;
+
+}
+
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	font-size: 25px;
+}
+
+.col{
+	flex-basis: 20%;
+	padding: 10px;
+}
+.col h3{
+	width: fit-content;
+	margin-bottom: 40px;
+	position: relative;
+}
+.col .email{
+	width: fit-content;
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+}
+
+.col img{
+	height: 50px;
+	width: 80px;
+}
+
+.col #twitter{
+	height: 50px;
+	width: 60px;
+}

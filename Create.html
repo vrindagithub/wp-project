@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <style>
+    h1{
+       font-size:30px;
+     text-align: center;  
+     margin-bottom: -80px;
+     position: relative;
+     padding: 100px;
+     color:white;
+     }
+     body{
+        background-image: url('loginpage.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    .entry{
+        text-align: center;
+    	color:black;
+    	border: 3px dashed black;
+    	margin-top:3px;
+    	margin-left: 400px;
+    	margin-right: 400px;
+    	padding:50px;
+        background:#D8D8D8;
+        opacity: 0.8;
+        }
+
+ .entry .a{
+       text-align: center;
+       height:30px;
+       width:300px;
+       border-radius:10px;
+       }
+       
+  .login input{
+       text-align: center;
+       height:40px;
+       width:200px;
+       border-radius:10px;
+       margin-left:80px;
+      }
+     
+  
+    </style>
+</head>
+<body>
+    
+  <div align="center">
+  <h1><u><em>Sign Up</u></em></h1>
+  </div>
+
+<form action="create.php" method="Post">
+    <div class="entry">
+        Name:<input type="text" class="a" name="Name" required><br><br>
+        Phone number:<input type="text" class="a" name="Phoneno" maxlength="10" required><br><br>
+        Email ID:<input type="text" class="a" name="Email"  required><br><br>
+        Password: <input type="password" class="a" name="Password" required><br><br>
+        Date of Birth: <input type="date" class="a"  name="dateofbirth"><br><br>
+        
+        <input type="checkbox" name="agree" id="agree" value="create"> 
+         <label for="agree"> I agree to all the terms and conditions </label> 
+         
+  <div class="login">
+      <input type="submit" value="Submit"> 
+</div> 
+</div>  
+</form>
+
+</body>
+</html>

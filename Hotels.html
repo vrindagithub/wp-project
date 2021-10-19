@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<head>
+        <title>Hotels</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Hotels.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/>
+</head>
+<body>
+
+<header>
+<div class="main">
+	<div class="logo">
+		<img src="logo.png" alt="logo">
+	</div>
+	
+	<div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Transport</a></li>
+                  <div class="dropdown-content">
+                                    <a href="flight.html"> Flight </a>
+                                    <a href="train.html">Train</a>
+                                    <a href="Bus.html">Bus</a>
+				</div>
+                          
+                <li><a href="Hotels.html">Hotels</a> </li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="lastpage.html">About Us</a></li>
+                <li><a href="Loginpage.html">Login/Sign Up</a></li>
+            </ul>
+         </div>
+        </header>
+
+    <section class="book" id="book"><br>
+
+            <h1 class="heading">
+                <span>B</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>N</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="book.jpeg" alt="">
+                </div>
+        
+                <form action="">
+                   
+                    <div class="inputBox">
+                        <h5>Destination</h5>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h5>Room for ?</h5>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+                    <div class="inputBox">
+                        <h5>Check-in</h5>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h5>Check-out</h5>
+                        <input type="date">
+                    </div>
+                   <br> <input type="submit" class="btn" value="Book now">
+                </form>
+        
+                <div class="video-container">
+                    <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+                </div>
+            </div>
+
+            <!-- ========================= -->
+            <div class="red"></div>
+
+            <div class="abcd">
+            <div class="discover">
+                <h1>Discover By Brand</h1>
+              
+            </div>
+
+            <div class="brands">
+                <div class="taj">
+                    <img src="https://www.hotel-online.com/wp-content/uploads/2019/06/TajHotelsPalacesResortsSafarisLogo.jpg" alt="logo">
+                </div>
+            
+                <div class="Hyatt">
+                    <img src="http://2.bp.blogspot.com/-5_8VRB-KLcU/UNBMFnjpunI/AAAAAAAAEW0/TEMEZI1Aq_I/s1600/Hyatt-Hotel-logo.png" alt="logo">
+                </div>
+                <div class="oberoi">
+                    <img src="https://latteluxurynews.com/wp-content/uploads/2019/03/Oberoi-HotelsResorts-logo-750x430.jpg" alt="logo">
+                </div>
+                <div class="leela">
+                    <img src="data:image/png;base64,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" alt="logo">
+                </div>
+              
+            </div>
+        
+
+            <div class="discover1">
+                <h1>Discover By Themes</h1>
+              
+            </div>
+
+            <div class="themes">
+                <div class="beach">
+                    <img src="https://thumbs.dreamstime.com/b/palms-tropical-beach-white-sand-summer-vacation-travel-holiday-background-concept-caribbean-paradise-beach-palms-136606345.jpg" alt="logo"><h1>Beachside Escapes</h1>
+                 
+                </div>
+            
+                <div class="vintage">
+                    <img src="https://thumbs.dreamstime.com/b/city-palace-jaipur-rajasthan-india-city-palace-jaipur-rajasthan-india-city-palace-jaipur-jaipur-rajasthan-india-castle-fort-162012148.jpg" alt="logo"><h1>Vintage Stays</h1>
+                </div>
+                <div class="hills">
+                    <img src="https://i1.wp.com/www.global-gallivanting.com/wp-content/uploads/2018/07/1050551-01-1024x849.jpeg?resize=1024%2C849&ssl=1" alt="logo"><h1>Enchanting Hills</h1>
+                </div>
+                <div class="heaven">
+                    <img src="https://www.tajhotels.com/content/dam/luxury/hotels/taj-palace-delhi/images/at_a_glance/16x7/Facade3.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="logo"><h1>Modern Heaven</h1>
+                </div>
+              
+
+                <!-- ======================= -->
+                <div class="heading2">
+                <h1 class="heading1">
+                    <span>O</span>
+                    <span>u</span>
+                    <span>r</span>
+                    <span class="space"></span>
+                    <span>T</span>
+                    <span>o</span>
+                    <span>p</span>
+                    <span class="space"></span>
+                    <span>P</span>
+                    <span>i</span>
+                    <span>c</span>
+                    <span>k</span>
+                    <span>s</span>
+                </h1>
+            </div>
+                <div class="toppicks">
+                    <video src="gallery.mp4" id="video-slider1" loop autoplay ></video>
+                    
+            </div>
+        </div>
+
+        
+<footer>
+	<div class="row">
+		<div class="col">
+			<h3>Office</h3>
+		<p>C/o. Navbharat Holiays- 1-space Complex</p>
+		<p>22- New Jagnath</p>
+		<p>DR.Yagnik Road</p>
+		<p>Rajkot-360001</p>
+		</div>
+		
+		<div class="col">
+			<p>Email & Phone</p><br>
+			<p class="email">khushtravels@gmail.com</p>
+			<h4>+91 - 0125743638</h4>
+		</div>
+
+		<div class="col">
+			<p>Payment & Security</p><br><br>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png">&nbsp;
+			<img src="https://thebalconehotel.com/wp-content/uploads/mastercard.png"><br><br>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZzLSHo8gpGaG_SF_ZaqE_thizeSYdX_XaNtOWbAMIsoXXFIW0-cuEUJCrzvvmtbsLw&usqp=CAU">&nbsp;
+			<img src="https://sm.pcmag.com/pcmag_in/review/p/paypal/paypal_mb8k.png">
+		</div>
+		<!-- <div class="col">
+			<h3>Newsletter</h3>
+			<form>
+				<input type="email" placeholder="Enter your email id"required>
+			</form>
+		</div> -->
+		<div class="col">
+			<h3>Follow Us:</h3> 
+			<img  src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png">
+			<img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png">
+			<img id="twitter"  src="https://www.freeiconspng.com/thumbs/twitter-icon/twitter-icon-download-18.png">
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Project</title>
+
+<style>
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      }
+      .travel{
+          color:white;
+          text-align:Center;
+          font-size:85px;
+          margin-top:50px;
+          position: absolute;
+         top: -1px;
+         left:400px;
+      }
+   h1{
+       font-size:30px;
+     text-align: center;  
+     margin-bottom: -80px;
+     position: relative;
+     padding: 100px;
+     color:white;
+     }
+
+     body{
+        background-image: url('loginpage.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    .entry{
+        text-align: center;
+    	color:black;
+    	border: 3px dashed black;
+    	margin-top:3px;
+    	margin-left: 400px;
+    	margin-right: 400px;
+    	padding:50px;
+        background:#D8D8D8;
+        opacity: 0.8;
+        }
+
+ .entry input{
+       text-align: center;
+       height:30px;
+       width:350px;
+       border-radius:10px;
+       }
+
+  .login input{
+       text-align: center;
+       height:40px;
+       width:200px;
+       border-radius:10px;
+       margin-left:20px;
+      }
+      .New input{
+       text-align: center;
+       height:40px;
+       width:200px;
+       border-radius:10px;
+       margin-left:20px;
+      }
+  
+
+</style>
+</head>
+<body>
+    <div class="travel">
+        <b><i> "Khush Travels" </i></b>
+    </div><br><br><br><br><br>
+  <div align="center">
+  <h1><u><em>Please Sign In</u></em> </h1>
+  </div>
+
+<form action="login.php" method="POST">
+    <div class="entry">
+        <input type="text" name="Email" placeholder="Email" ><br><br>
+        <input type="password" name="Password" placeholder="Password" ><br><br>
+   
+    <div class="login">   
+     <input type="submit" value="Login">
+    </div><br>
+    </form>
+         <div class="New">   
+             <b> New User?? </b><br><br>
+             <a href="Create.html"><input type="text" name="New" Value="Create Account"></a>
+      </div>   
+</body>
+</html>
+
